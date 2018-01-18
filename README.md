@@ -1,0 +1,1 @@
+# discourse-FlexFooter-theme-component
