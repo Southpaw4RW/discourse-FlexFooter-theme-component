@@ -1,3 +1,11 @@
+$df-top-footer-background: rgb(40, 40, 40) 	!default;
+$df-bottom-footer-background: rgb(17, 17, 17)	!default;
+$df-top-link-color: inherit			!default;
+$df-bottom-link-color: rgb(185, 185, 185)	!default;
+$df-shared-text-color: rgb(175, 175, 175)	!default;
+$df-shared-heading-color: rgb(255, 255, 255)	!default;
+$df-base-font-size: 1em				!default;
+
 #main-outlet {
 	margin-bottom: 40px;
 }
