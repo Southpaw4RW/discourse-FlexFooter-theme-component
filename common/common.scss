@@ -28,13 +28,12 @@ $df-base-font-size: 1em				!default;
 
 .df-cards {
 	width: 33.3%;
-	margin-right: 2%;
 	box-sizing: border-box;
 	padding: 1.5em;
 	background-color: rgba(invert($df-top-footer-background), 0.1);
 
-	&:last-of-type {
-		margin-right: 0;
+	+ .df-cards {
+		margin-left: 2%;
 	}
 
 	* {
