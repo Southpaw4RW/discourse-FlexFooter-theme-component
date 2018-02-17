@@ -81,7 +81,8 @@ $df-base-font-size: 1em				!default;
 	}
 }
 
-#df {
+#df,
+.df-mainwrap {
 	line-height: 1.5;
 	font-size: $df-base-font-size;
 
