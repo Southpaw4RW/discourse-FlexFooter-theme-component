@@ -73,7 +73,10 @@ $df-base-font-size: 1em				!default;
 	}
 	.df-cards {
 		width: 100%;
-		margin-left: 0;
+		
+		+ .df-cards {
+			margin-left: 0;
+		}
 	}
 	.df-cards:not(:last-child) {
 		margin-bottom: 2em;
