@@ -1,5 +1,6 @@
 {
   "name": "FlexFooter Theme Component",
   "about_url": "https://meta.discourse.org/t/77929",
+  "component": true,
   "license_url": "https://github.com/hnb-ku/discourse-FlexFooter-theme-component/blob/master/LICENSE"
 }
