@@ -1,0 +1,135 @@
+<!--- Start Discourse FlexFooter theme - basic template -->
+
+<div id="df">
+
+	<!--- Start Top Section -->
+
+	<footer class="df-top">
+		<div class="df-container clearfix">
+			<div class="df-card-wrapper">
+
+				<!--- Start  Card A -->
+
+				<div class="df-cards df-card-a">
+
+					<!--- Start  Card content -->
+					    <h3 class="df-card-a-title">
+						    Got Relay?
+					    </h3> 
+					    <p style="margin:0">Visit our sister Community <strong><em>The Neighborhood</em></strong> and share thoughts on family life grounded in unplugged play.</p>
+					    <p class="df-text-center"><img src="https://forums.republicwireless.com/uploads/default/original/2X/d/da1a3f11b241410f33649f6098a428e244fca45d.png" alt="Relay friends" /></p>
+					    <p class="df-text-center"><a href="https://community.relaygo.com" class="btn btn-primary btn-df">Visit the Neighborhood</a></p>
+                    
+					<!--- End  Card content -->
+
+				</div>
+
+				<!--- End Card A -->
+
+				<!--- Start Card B -->
+
+				<div class="df-cards df-card-b">
+
+					<!--- Start  Card content -->
+				
+					<h3 class="df-card-b-title">
+						Avoid Porting Scams!
+					</h3>
+					<p>Set your account PIN to protect your number from porting (transfer) scams used by identity thieves.</p>
+				<!--	<center><i class="fa fa-key" style="font-size:10em; color:$primary; margin-top:.19em"></i></center> -->
+					<center><svg class="fas d-icon d-icon-user-ninja svg-icon svg-node" style="height:9em; width:9em; margin:2px 0 4px 0"><use xlink:href="#user-ninja"></use></svg></center>
+					<p class="df-text-center"><a href="https://help.republicwireless.com/hc/en-us/articles/360000252247-How-Do-I-Prevent-an-Unauthorized-Transfer-of-My-Phone-Number-to-a-Different-Carrier-" target="_blank" class="btn btn-primary btn-df">Read more!</a></p>
+				
+					<!--- End  Card content -->
+
+				</div>
+
+				<!--- End Card B -->
+
+				<!--- Start Card C -->
+
+				<div class="df-cards df-card-c">
+
+					<!--- Start  Card content -->
+
+					<h3 class="df-card-c-title">
+					Kudo & Win!
+					</h3>
+					<p>
+					Want to say, “Thank you” for some help you’ve received at Republic Wireless? Tell us about it and you could win a Republic Wireless T-shirt!
+					</p>
+					<p class="df-text-center"><img src="https://discourse-cdn-sjc1.com/republic/uploads/default/original/2X/0/00fcaf62a31c1a6c60fe73e9a2af2328028e8b0e.png" width="50%" /></p>
+	                <p class="df-text-center"> <a href="https://forums.republicwireless.com/t/8958" class="btn btn-primary btn-df">Give Kudos!</a> </p>
+				
+				
+					<!--- End Card content -->
+
+				</div>
+
+				<!--- End Card C -->
+
+			</div>
+		</div>
+	</footer>
+
+	<!--- End Top Section -->
+
+	<!--- Start Bottom Section -->
+
+	<footer class="df-bottom">
+		<div class="df-container clearfix">
+
+			<!--- Start LinkList A -->
+
+			<nav class="df-linklists df-linklist-a">
+				<a href="https://republicwireless.com/coverage/" class="df-local">Coverage Checker</a>
+				<a href="https://republicwireless.com/phones/" class="df-local">Phones</a>
+				<a href="https://republicwireless.com/tools/number-transfer/" class="df-local">Number Transfer</a>
+				<a href="https://republicwireless.com/activate/" class="df-local">Activation</a>
+				<a href="https://pwk.republicwireless.com/" class="df-local">PWK Blog</a>
+				<a href="https://republicwireless.com/careers/" class="df-local">Careers</a>
+				<a href="https://republicwireless.com/legal/" class="df-local">Legal</a>
+				<a href="https://help.republicwireless.com/hc/en-us" class="df-local">Help</a>
+				<a href="http://status.republicwireless.com/" class="df-local">Status</a>
+				
+
+			</nav>
+
+			<!--- End LinkList A -->
+
+			<!--- Start LinkList B -->
+            
+			<nav class="df-linklists df-linklist-b">
+
+				<!--- Start Social links -->
+
+				<a class="df-social-link" href="https://www.facebook.com/republicwireless">
+                <i class="fa fa-facebook"></i>
+              </a>
+
+				<a class="df-social-link" href="https://twitter.com/republicwirelss">
+                <i class="fa fa-twitter"></i>
+              </a>
+              
+              	<a class="df-social-link" href="https://www.youtube.com/user/RepublicWireless">
+                <i class="fa fa-youtube"></i>
+              </a>
+
+				<a class="df-social-link" href="https://instagram.com/republicwireless">
+                <i class="fa fa-instagram"></i>
+              </a>
+
+				<!--- end Social links -->
+
+			</nav>
+
+			<!--- End LinkList B -->
+
+		</div>
+	</footer>
+
+	<!--- End Bottom Section -->
+
+</div>
+
+<!--- End Discourse FlexFooter theme - basic template -->
