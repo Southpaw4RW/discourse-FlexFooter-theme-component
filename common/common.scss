@@ -1,10 +1,20 @@
-$df-top-footer-background: rgb(40, 40, 40) 	!default;
-$df-bottom-footer-background: rgb(17, 17, 17)	!default;
-$df-top-link-color: inherit			!default;
-$df-bottom-link-color: rgb(185, 185, 185)	!default;
-$df-shared-text-color: rgb(175, 175, 175)	!default;
-$df-shared-heading-color: rgb(255, 255, 255)	!default;
-$df-base-font-size: 1em				!default;
+// FLEXIBLE FOOTER CSS
+
+$df-top-footer-background: $quaternary; // rgb(40, 40, 40); // Contains the boxes left to right, above and below
+$df-bottom-footer-background: rgb(17, 17, 17); //below the boxes, contains site links
+$df-top-link-color: $secondary;
+$df-bottom-link-color: rgb(185, 185, 185); // the links below the boxes, site links
+$df-shared-text-color: $secondary; // rgb(175, 175, 175); // non-linked text in the boxes
+$df-shared-heading-color: $secondary; // rgb(255, 255, 255); // heading text in the boxes
+$df-base-font-size: 1em; //text size in the boxes
+
+//$df-top-footer-background: rgb(40, 40, 40) 	!default;
+//$df-bottom-footer-background: rgb(17, 17, 17)	!default;
+//$df-top-link-color: inherit			!default;
+//$df-bottom-link-color: rgb(185, 185, 185)	!default;
+//$df-shared-text-color: rgb(175, 175, 175)	!default;
+//$df-shared-heading-color: rgb(255, 255, 255)	!default;
+//$df-base-font-size: 1em				!default;
 
 #main-outlet {
 	margin-bottom: 40px;
@@ -30,7 +40,7 @@ $df-base-font-size: 1em				!default;
 	width: 33.3%;
 	box-sizing: border-box;
 	padding: 1.5em;
-	background-color: rgba(invert($df-top-footer-background), 0.1);
+	background-color: rgba(invert($df-top-footer-background), 0.25);
 
 	+ .df-cards {
 		margin-left: 2%;
@@ -47,7 +57,7 @@ $df-base-font-size: 1em				!default;
 	padding: 0 1em 1em 1em;
 
 	a {
-		margin-right: 0.5em;
+		margin-right: 1.8em;
 		color: $df-bottom-link-color;
 	}
 }
